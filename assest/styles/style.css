@@ -1,8 +1,76 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;700&display=swap");
 /* font-family: 'Roboto Mono', monospace; */
 
+/* 
+#D2EFEF, #f6f8f8, #4bc5b8
+*/
+
 * {
     font-family: "Roboto Mono", monospace;
 }
 
+/* #main_wrapper {
+} */
 
+/* header */
+#main_header {
+    /* background-color: #d2efef; */
+    background: url(../img/banner/bg-1.jpg) no-repeat;
+    background-size: cover;
+    color: #f6f8f8;
+}
+.banner_content h1 {
+    font-weight: 700;
+}
+.banner_content h1 span {
+    color: #4bc5b8;
+}
+
+.banner_content .banner-button {
+    border: none;
+    width: 150px;
+    float: left;
+    font-size: 16px;
+    color: #f6f8f8;
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 2px;
+    margin: 0 10px 0 0;
+}
+.banner_content .bnr-btn-ac {
+    background-color: #4bc5b8;
+    margin-bottom: 5px;
+}
+.carousel-prev-next .btn-cmn{
+    position: absolute;
+    top: auto;
+    bottom: 10px;
+    border: 2px solid #4bc5b8;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+/* header end*/
+
+/* best_health_care */
+#best_health_care{}
+
+#best_health_care .banner-button {
+    border: none;
+    width: 150px;
+    float: left;
+    font-size: 16px;
+    color: #f6f8f8;
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 2px;
+    margin: 0 10px 0 0;
+}
+#best_health_care .bnr-btn-ac {
+    background-color: #4bc5b8;
+    margin-bottom: 5px;
+}
+/* best_health_care end */

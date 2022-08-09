@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
     <!-- bootstrap v5-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
 
     <!-- css -->
     <link rel="stylesheet" href="./assest/styles/style.css">
@@ -21,12 +22,126 @@
 
 <body>
     <main id="main_wrapper">
-      
+        <header id="main_header">
+            <nav class="navbar navbar-expand-lg navbar-dark container">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <div id="carouselExampleControls" class="carousel slide position-relative container mt-4"
+                data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6 d-flex align-items-center mb-3">
+                                <div class="banner_content">
+                                    <h1>
+                                        <span>Health</span></br>Care
+                                    </h1>
+                                    <p class="text-muted">There are many variations of passages of Lorem Ipsum</p>
+                                    <button class="banner-button bnr-btn-ac">Contact Now</button>
+                                    <button class="banner-button">Get A Quote</button>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="./assest/img/banner/img-1.png" class="d-block w-100" alt="Img-1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6 d-flex align-items-center mb-3">
+                                <div class="banner_content">
+                                    <h1>
+                                        <span>Health</span></br>Care
+                                    </h1>
+                                    <p class="text-muted">There are many variations of passages of Lorem Ipsum</p>
+                                    <button class="banner-button bnr-btn-ac">Contact Now</button>
+                                    <button class="banner-button">Get A Quote</button>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="./assest/img/banner/img-1.png" class="d-block w-100" alt="Img-1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-prev-next">
+                    <button class="carousel-control-prev btn-cmn" type="button"
+                        data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next btn-cmn" type="button"
+                        data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <section id="best_health_care" class="container">
+            <div class="content_title my-5">
+                <h1>Best Of Health care for you</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus officiis dicta omnis libero
+                    eveniet aliquid ab blanditiis veniam fugit suscipit aperiam voluptate dolore facere nemo modi
+                    possimus.</p>
+            </div>
+            <div class="content_img">
+                <div class="card_img_parent row">
+                    <div class="col-md-6 border">
+                        <img class="w-100" src="./assest/img/content/img-2.png" alt="">
+                    </div>
+                    <div class="col-md-6 border">
+                        <img class="w-100" src="./assest/img/content/img-2.png" alt="">
+                    </div>
+                </div>
+                <button class="banner-button bnr-btn-ac my-5">Read More <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </section>
     </main>
 </body>
 
 <!-- extra script -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
 
 <script src="./script/main-script.js"></script>
 
